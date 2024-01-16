@@ -6,7 +6,7 @@ const SignIn = () => {
 
   return (
     <div className="sign-container">
-      <form action="">
+      <form action="" className="flex justify-center">
         <h1>Log In</h1>
         <input type="email" placeholder="Enter your Eamil" value={email} />
         <input
